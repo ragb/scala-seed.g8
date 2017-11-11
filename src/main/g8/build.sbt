@@ -10,6 +10,7 @@ lazy val root = (project in file(".")).
     name := "$name;format="norm"$",
     libraryDependencies ++= Seq(
       specs2Core % Test,
+      specs2Scalacheck % Test,
       scalacheck % Test
     ),
       scalacOptions ++= Seq(
