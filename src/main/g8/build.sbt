@@ -31,7 +31,8 @@ lazy val root = (project in file(".")).
       "-Ywarn-numeric-widen",
       "-Ywarn-value-discard",
       "-Xfuture",
-      "-Ywarn-unused-import"     // 2.11 only
+      "-Ywarn-unused-import",     // 2.11 only
+      "-Ypartial-unification"
       ),
     scalacOptions in (Compile, console) --= Seq(
       "-Ywarn-unused-import",
