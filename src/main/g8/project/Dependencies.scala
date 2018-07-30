@@ -7,4 +7,5 @@ object Dependencies {
 
   val specs2Version = "$specs2_version$"
   val scalacheckVersion = "$scalacheck_version$"
+  val kindProjectorVersion = "0.9.7"
 }
