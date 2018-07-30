@@ -17,7 +17,7 @@ lazy val root = (project in file(".")).
       scalacheck % Test
       
     ),
-    addCompilerPlugin("org.spire-math" % "kind-projector" % kindProjectorVersion cross CrossVersion.binary)
+    addCompilerPlugin("org.spire-math" % "kind-projector" % kindProjectorVersion cross CrossVersion.binary),
     scalacOptions ++= Seq(
       "-deprecation",
       "-encoding", "UTF-8",       // yes, this is 2 args
