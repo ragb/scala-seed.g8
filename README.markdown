@@ -10,8 +10,10 @@ Diferences from the canonical scala-seed:
 
 * Use specs2 instead of scalatest
 * Have scalacheck as a test dependency by default
-* Recomended Scala Options (some of them a bit controverse)
+* Recomended Scala Options (some of them a bit controverse) using sbt plugin.
 * Use template variables
+* sbt-git, sbt-scalafmt and sbt-headers plugin included by default
+
 
 License
 -------
